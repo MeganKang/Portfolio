@@ -1,7 +1,7 @@
 # 📊 Project Portfolio
 
 ## 🏆 Overview
-Welcome to my **Portfolio**! This repository contains various projects that demonstrate my expertise in **data analysis, machine learning, software developement, UI/UX design and more**. Some projects focuses on real-world data, building applications from scratch, and using languages and tools such as **Python, C++, Figma, SQL, and more **.
+Welcome to my **Portfolio**! This repository contains various projects that demonstrate my expertise in **data analysis, machine learning, software developement, UI/UX design and more**. Some projects focuses on real-world data, building applications from scratch, and using languages and tools such as **Python**, **C++**, **Figma**, **SQL**, and more **.
 
 ## 🛠️ Skills & Tools Used
 
