@@ -12,21 +12,34 @@ This project is an **IOS App** paired with a physical device that tracks moistur
 
 ## 🛠️ Skills Demonstrated
 ## 1️ Business Planning, Business Analysis
-
+- User/Market Research
+  - Conducted interviews with potential market, documented using **Google Docs**
+- Competitor Analysis
+  - Researched features, price and popularity with competing brands
+- 
 
 ## 2️ UI/UX Design
-
+- Storyboards
+- User profiles
+- User interface
 
 ## 3 Mobile App Development
-
+- Building screens
+  - Account creation, profile customization
+  - Adding/Removing plants
+  - Page navigation
 
 ## 4 Database Building/Management
-
+- Creating an account
+- Accessing account
+- Sign in/Log out
 
 ---
 
 ## 📈 Contribution Overview
-
+- Built the settings page and blue tooth page
+- Designed the Color scheme and user flow
+- Worked on database for changing account information
 
 
 ## 📈 App Launch, Insights, Key Takeaways
