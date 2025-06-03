@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.4.1" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+  <asset>
+    <created>2017-02-03T07:43:18Z</created>
+    <modified>2017-02-03T07:43:18Z</modified>
+  </asset>
+  <library_images>
+    <image id="etc_carpet_id" name="etc_carpet">
+      <init_from>./etc_carpet.png</init_from>
+    </image>
+    <image id="etc_wall_id" name="etc_wall">
+      <init_from>./etc_wall.png</init_from>
+    </image>
+    <image id="gl_id" name="gl">
+      <init_from>./gl.png</init_from>
+    </image>
+    <image id="mat_id" name="mat">
+      <init_from>./mat.png</init_from>
+    </image>
+    <image id="noise_id" name="noise">
+      <init_from>./noise.png</init_from>
+    </image>
+    <image id="noise_light_id" name="noise_light">
+      <init_from>./noise_light.png</init_from>
+    </image>
+    <image id="obj_id" name="obj">
+      <init_from>./obj.png</init_from>
+    </image>
+    <image id="obj_nuki_id" name="obj_nuki">
+      <init_from>./obj_nuki.png</init_from>
+    </image>
+    <image id="shadow_id" name="shadow">
+      <init_from>./shadow.png</init_from>
+    </image>
+    <image id="shine_id" name="shine">
+      <init_from>./shine.png</init_from>
+    </image>
+    <image id="sunshine_id" name="sunshine">
+      <init_from>./sunshine.png</init_from>
+    </image>
+    <image id="sun_window_id" name="sun_window">
+      <init_from>./sun_window.png</init_from>
+    </image>
+    <image id="window_id" name="window">
+      <init_from>./window.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="m_sunshine_mat_id" name="m_sunshine_mat">
+      <instance_effect url="#eff_m_sunshine_id" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="eff_m_sunshine_id" name="eff_m_sunshine">
+      <profile_COMMON>
+        <newparam sid="img_surface">
+          <surface type="2D">
+            <init_from>sunshine_id</init_from>
+            <format>PNG</format>
+          </surface>
+        </newparam>
+        <newparam sid="img_sampler">
+          <sampler2D>
+            <source>img_surface</source>
+            <wrap_s>MIRROR</wrap_s>
+            <wrap_t>MIRROR</wrap_t>
+            <minfilter>NEAREST_MIPMAP_NEAREST</minfilter>
+            <magfilter>LINEAR</magfilter>
+            <mipfilter>LINEAR</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="img_technique">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="img_sampler" texcoord="uv" />
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="mesh_0__id" name="mesh_0_">
+      <mesh>
+        <source id="mesh_0__position_id" name="mesh_0__position">
+          <float_array id="mesh_0__position_array_id" count="126">0.250002 23.5 18.4611 40.25 36 18.4611 0.249994 71 18.4611 40.25 -11.5 18.4611 40.25 -11.5 -17.9389 0.250002 23.5 -17.9389 40.25 39 17.5511 0.249994 74 17.5511 40.25 36 -17.9389 0.249995 71 -17.9389 40.25 40.75 16.6411 40.25 39 -17.0289 0.249995 74 -17.0289 0.249994 75.75 16.6411 40.25 43.25 14.8211 40.25 40.75 -16.1189 0.249995 75.75 -16.1189 0.249994 78.25 14.8211 40.25 46.5 11.1811 40.25 43.25 -14.2989 0.249995 78.25 -14.2989 0.249994 81.5 11.1811 40.25 48.5 7.54114 40.25 46.5 -10.6589 0.249995 81.5 -10.6589 0.249994 83.5 7.54114 40.25 49.5 2.08113 40.25 48.5 -7.01887 0.249995 83.5 -7.01887 0.249995 84.5 2.08113 40.25 49.5 -1.55886 0.249995 84.5 -1.55886 0 65 -19.6 0 51 -19.6 0 51 19.6 0 65 19.6 0 85 -19.6 0 85 19.6 0 51 19.6 0 23 -19.6 0 23 19.6 0 51 -19.6</float_array>
+          <technique_common>
+            <accessor source="#mesh_0__position_array_id" count="42" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh_0__uv0_id" name="mesh_0__uv0">
+          <float_array id="mesh_0__uv0_array_id" count="84">0.2 1 0.2 0.5 0.2 1 0.2 0.5 0.2 0.5 0.2 1 0.2 0.5 0.2 1 0.2 0.5 0.2 1 0.2 0.5 0.2 0.5 0.2 1 0.2 1 0.2 0.5 0.2 0.5 0.2 1 0.2 1 0.2 0.5 0.2 0.5 0.2 1 0.2 1 0.2 0.5 0.2 0.5 0.2 1 0.2 1 0.2 0.5 0.2 0.5 0.2 1 0.2 1 0.2 0.5 0.2 1 0.507813 1.49609 0.507813 1 1.49219 1 1.49219 1.49609 0.507813 1.99219 1.49219 1.99219 1.49219 1.5 0.507813 0.5 1.49219 0.5 0.507813 1.5</float_array>
+          <technique_common>
+            <accessor source="#mesh_0__uv0_array_id" count="42" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="mesh_0__vertices_id">
+          <input semantic="POSITION" source="#mesh_0__position_id" />
+        </vertices>
+        <triangles material="m_sunshine" count="38">
+          <input semantic="VERTEX" source="#mesh_0__vertices_id" offset="0" />
+          <input semantic="TEXCOORD" source="#mesh_0__uv0_id" offset="0" set="0" />
+          <p>0 1 2 0 3 1 0 4 3 0 5 4 2 1 6 2 6 7 5 8 4 5 9 8 6 10 7 9 11 8 9 12 11 10 13 7 10 14 13 12 15 11 12 16 15 14 17 13 14 18 17 16 19 15 16 20 19 18 21 17 18 22 21 20 23 19 20 24 23 22 25 21 22 26 25 24 27 23 24 28 27 26 29 25 26 30 29 27 28 30 29 30 31 31 30 28 32 33 34 32 34 35 32 35 36 35 37 36 38 39 40 38 41 39</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="mesh_0__ctrl_id">
+      <skin source="#mesh_0__id">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="mesh_0__ctrl_joint_names_id">
+          <Name_array id="mesh_0__ctrl_joint_names_array_id" count="1">sunshine</Name_array>
+          <technique_common>
+            <accessor source="#mesh_0__ctrl_joint_names_array_id" count="1" stride="1">
+              <param name="JOINT" type="Name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh_0__ctrl_inv_bind_poses_id">
+          <float_array id="mesh_0__ctrl_inv_bind_poses_array_id" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesh_0__ctrl_inv_bind_poses_array_id" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh_0__ctrl_weights_id">
+          <float_array id="mesh_0__ctrl_weights_array_id" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#mesh_0__ctrl_weights_array_id" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#mesh_0__ctrl_joint_names_id" />
+          <input semantic="INV_BIND_MATRIX" source="#mesh_0__ctrl_inv_bind_poses_id" />
+        </joints>
+        <vertex_weights count="42">
+          <input semantic="JOINT" source="#mesh_0__ctrl_joint_names_id" offset="0" />
+          <input semantic="WEIGHT" source="#mesh_0__ctrl_weights_id" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="vs_idr_barber_sunshine_id" name="vs_idr_barber_sunshine">
+      <node id="sunshine_bone_id" name="sunshine" sid="sunshine" type="JOINT">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+      </node>
+      <node id="vsn_mesh_0__id" name="vsn_mesh_0_" type="NODE">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_controller url="#mesh_0__ctrl_id">
+          <skeleton>#sunshine_bone_id</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="m_sunshine" target="#m_sunshine_mat_id" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#vs_idr_barber_sunshine_id" />
+  </scene>
+</COLLADA>
