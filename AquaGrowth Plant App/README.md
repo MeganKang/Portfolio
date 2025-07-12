@@ -44,6 +44,7 @@ This project is an **IOS App** paired with a physical device that tracks moistur
 
 ## 📈 App Launch, Insights, Key Takeaways
 > [**“Device and App Presentation”**](https://youtu.be/y4WGKv_AzPw?si=svRGplgeaZi754XN)
+
 > [**"AquaGrowth App Github Repo"**](https://github.com/Mushmou/AquaGrowthMobile)
 - **Results**: Our main objective was to see if it was possible to predict the type of mold species from the clients symptoms. We were able to find some correlations between symptoms and attempted to focus our model on a narrow feature set. Although prediction accuracies were not above 70%, we found that during our time, there was potential to learn and build more. Our code and data was used for the early stages of incorporating machine learning into their business and was a stepping stone for the usage of AI at We Inspect.
 
