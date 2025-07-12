@@ -4,19 +4,40 @@
 Welcome to my **Portfolio**! This repository contains various projects that demonstrate my expertise in **data analysis, machine learning, software development, UI/UX design and more**. Some projects focus on real-world data, building applications from scratch, and using languages and tools such as **Python**, **C++**, **Figma**, **SQL**, and more.
 
 ## 🛠️ Skills & Tools Used
-### **Machine Learning and Data Science: Model Building, Data Preprocessing, Data Cleaning and Transformation**
--
-### **Software Development: Mobile, Web**
--
-### **Design: UI/UX, Web**
--
-### **Project Management and Teamwork: Agile Methodology**
-- Pair Programming (Coding with a team on one device)
-- 
+### **Machine Learning and Data Science**
+- Tools: Python, Keras, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn
+- Model Building
+  - Unsupervised Clustering: K-Means, K-prototypes, SVM
+  - Dimensionality Reduction
+  - Supervised Classification: Random Forest, Logistic Regression
+- Data Preprocessing and Feature Engineering
+  - PCA, T-sne
+  - One-hot encoding
+- Data Cleaning
+  - Handling missing values
+  - Removing Duplicates
+  - Standardizing formats
+- Data Visualization
+  - Boxplots, Heatmaps, Histograms, Scatterplots
+
+### **Software Development: Mobile, Web, UI/UX Design**
+- Languages: Swift, Kotlin, HTML, CSS
+- Tools: Trello, Figma, Canva
+- UML Diagrams: Draw.io
+- UI/UX Design
+  - Creating and conducting surveys/interviews, Building Personas, Developing Storyboards
+  - User-centered Design
+- Project Management
+  - Developed in sprints
+  - Agile/Scrum Environment
+
 ### **Database: Managing Databases**
--
+- Tools: MongoDB, Postgresql, Firebase
 ### **Multimedia Programming: Computer Graphics**
--
+- Tools: C++, OpenQL, SFML
+- Rendering Algorithms and Pipelines: Rasterization
+- Linear Algebra, 2D and 3D modeling, Animation
+- Shading, Phong Lighting, Meshes
 
 ---
 
