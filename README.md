@@ -31,8 +31,10 @@ Welcome to my **Portfolio**! This repository contains various projects that demo
   - Developed in sprints
   - Agile/Scrum Environment
 
-### **Database: Managing Databases**
+<!--### **Database: Managing Databases**
 - Tools: MongoDB, Postgresql, Firebase
+- UML Diagrams: Draw.io
+- -->
 ### **Multimedia Programming: Computer Graphics**
 - Tools: C++, OpenQL, SFML
 - Rendering Algorithms and Pipelines: Rasterization
