@@ -45,14 +45,11 @@ Welcome to my **Portfolio**! This repository contains various projects that demo
 ### [**1️⃣ WeInspect Machine Learning Project** *(Python, Powerpoint)*](https://github.com/MeganKang/Portfolio/tree/main/WeInspect_ML_Studio_Project)
 Building a machine learning model to solve an unsupervised learning problem by finding patterns between mold species found in client's homes and symptoms they are facing.
 
-### [**2️⃣ AquaGrowth Mobile App** *(Swift, Firebase, Figma, Trello, Google Workspace)*](https://github.com/MeganKang/Portfolio/tree/main/Nintendogs)
-Building a machine learning model to solve an unsupervised learning problem by finding patterns between mold species found in client's homes and symptoms they are facing.
+### [**2️⃣ AquaGrowth Mobile App** *(Swift, Firebase, Figma, Trello, Google Workspace)*](https://github.com/MeganKang/Portfolio/tree/main/AquaGrowth%20Plant%20App)
+Developing an ios app for plant care, reporting moisture, temperature data. This is paired with a physical device built with an arduino nano and a 3D printer.
 
 ### [**3️⃣ Nintendogs** *(C++, SFML, OpenGL)*](https://github.com/MeganKang/Portfolio/tree/main/Nintendogs)
-Building a machine learning model to solve an unsupervised learning problem by finding patterns between mold species found in client's homes and symptoms they are facing.
-
-### [**4️⃣ WeInspect Machine Learning Project** *(Python, Powerpoint)*](https://github.com/MeganKang/Portfolio/tree/main/WeInspect_ML_Studio_Project)
-Building a machine learning model to solve an unsupervised learning problem by finding patterns between mold species found in client's homes and symptoms they are facing.
+Interactive animation of Nintendogs game using public resources.
 
 ---
 
